@@ -1,0 +1,72 @@
+.cover {
+    background-image: url(../img/tree.png);
+    background-size: cover;
+    width: 100%;
+    height: calc(100vw * 768 / 1366);
+    position: relative;
+    background-repeat: no-repeat;
+
+    .cover-grass {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .cover-female {
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        width: 22%;
+    }
+
+    .cover-leaf {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .cover-sentence{
+        position: absolute;
+        right: 10%;
+        top: 20%;
+        width: 25%;
+        text-align: right;
+    }
+
+    .cover-navbar {
+        position: absolute;
+        right: 5%;
+
+        ul {
+            font-size: 1.5rem;
+            font-family: 'Montserrat', sans-serif;
+            align-items: center;
+
+            li {
+                a {
+                    color: #03162E;
+                    padding: 2rem 2.5rem;
+                }
+            }
+
+            .cover-navbar-logo {
+                font-weight: bold;
+                font-size: 2.5rem;
+
+                a {
+                    color: #8E425C;
+                }
+            }
+        }
+    }
+}
+
+.yoga{
+    background-image: url(../img/yoga-earth.png);
+    background-size: cover;
+    width: 100%;
+    height: calc(100vw * 862 / 1366);
+}

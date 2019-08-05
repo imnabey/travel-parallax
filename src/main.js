@@ -3,6 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import BootstrapVue from 'bootstrap-vue'
+// import 'slick-carousel/slick/slick.min'
+import '././assets/scss/main.scss'
+
+Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
 
